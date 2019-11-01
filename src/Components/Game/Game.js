@@ -1,19 +1,22 @@
 import React from 'react';
-import logo from '../../logo.svg';
 import Header from '../Header/Header';
-import Container from '../Container/Container';
 import Footer from '../Footer/Footer'
+import cards from '../../card.json'
 
 // Import all components to game
 
-function Game() {
-    return (
-        <div>
-            <Header />
-            {/* <Container /> */}
-            <Footer />
-        </div>
-    );
-}
+class Game extends React.Component {
+state = { cards: cards };
 
+    render() {
+        return (
+            <div>
+                <Header />
+                {/* render this.state.cards */}
+                <Footer />
+            </div>
+        );
+    }
+    // game functions: onclick, shuffle, score
+}
 export default Game;
