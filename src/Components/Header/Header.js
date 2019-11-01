@@ -1,21 +1,15 @@
 import React from 'react';
-import 'headStyle.css';
+import './headStyle.css';
 
-function Header() {
-    return (
-      <div className="main-container">
-        <div className="container">
-          <div className="jumbotron">
-              {/* the ({pullVariable}) needed to be commented out to prevent error */}
-            {/* <h1>Hi! My name is ({name})</h1>
-            <h2>My name has ({name.length}) letters</h2>
-            <h2>My name without any vowels is: ({stripVowels(name)})</h2>
-            <h2>I think React ({thoughts})</h2> */}
-            <h1>Clicky Game</h1>
+    const Header = props => (
+        <div className="header">
+          <div className="title">Clicky Game</div>
+          <div className="scores">
+            Score:  
+            Highscore: 
           </div>
         </div>
-      </div>
-    );
-  }
+      );
+  
   
   export default Header;
