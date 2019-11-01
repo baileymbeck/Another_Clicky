@@ -1,4 +1,5 @@
 import React from 'react';
+import 'headStyle.css';
 
 function Header() {
     return (
@@ -10,6 +11,7 @@ function Header() {
             <h2>My name has ({name.length}) letters</h2>
             <h2>My name without any vowels is: ({stripVowels(name)})</h2>
             <h2>I think React ({thoughts})</h2> */}
+            <h1>Clicky Game</h1>
           </div>
         </div>
       </div>
