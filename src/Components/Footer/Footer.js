@@ -7,10 +7,10 @@ function Footer() {
             left: "0",
             bottom: "0",
             width: "100%",
+            height: "10%",
             textAlign: "center",
             backgroundColor: "lightblue"
         }}>
-            <h1 style={{ color: "white" }}>Hey guys! I'm a footer!</h1>
         </div>
     );
 }

@@ -5,8 +5,8 @@ import './headStyle.css';
         <div className="header">
           <div className="title">Clicky Game</div>
           <div className="scores">
-            Score:  
-            Highscore: 
+            Score: {props.score} 
+            Highscore: {props.highscore}
           </div>
         </div>
       );
