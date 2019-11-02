@@ -13,7 +13,7 @@ class Game extends React.Component {
         score: 0,
         highscore: 0
     };
-    componentDidMount(){
+    componentDidMount() {
         this.setState({
             cards: this.shuffleCard(this.state.cards)
         })
@@ -47,12 +47,12 @@ class Game extends React.Component {
 
     shuffleCard = cards => {
         let i = cards.length - 1;
-        while(i > 0){
+        while (i > 0) {
             const k = Math.floor(Math.random() * (i + 1));
             const temp = cards[i];
             cards[i] = cards[k];
             cards[k] = temp;
-            i --;
+            i--;
         }
         return cards;
     };
@@ -71,7 +71,8 @@ class Game extends React.Component {
         })
         guessCorrectly ? this.handleCorrectGuess(newCard) : this.handleIncorrectGuess(newCard)
 
-    }
+    };
+
 
     render() {
         return (

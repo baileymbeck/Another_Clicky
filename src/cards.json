@@ -1,20 +1,44 @@
 [
     {
       "id": 1,
-      "name": "SpongeBob",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHjcx3aZAzLlyVGPgminkTbZUFPKkntuDafrHO86cuMw2YCW2H",
+      "name": "orchid",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71WwlC6TErL._AC_UL200_SR200,200_.jpg",
       "clicked": false
     },
     {
       "id": 2,
-      "name": "Mr. Krabs",
-      "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+      "name": "philodendron",
+      "image": "https://olivehill.net/wp-content/uploads/2015/08/06-Philodendron-Cordatum-800x800.jpg",
       "clicked": false
     },
     {
       "id": 3,
-      "name": "Squidward",
-      "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+      "name": "deliciosa",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/413Eg47WUJL._AC_US200_.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "name": "adansonii",
+      "image": "http://ekladata.com/WKlabjixpK9HPGvD2NReuBATKVo@200x200.jpg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "name": "prayer",
+      "image": "http://www.costafarms.com/Images/EditorImages/Maranta-Red2%20200x200.jpg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "name": "snake",
+      "image": "https://www.plantshed.com//media/catalog/product/cache/1/thumbnail/200x200/9df78eab33525d08d6e5fb8d27136e95/p/s/ps20149_snake_plant_in_large_fem_rosa_pot.jpg",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "name": "philodendronBrazil",
+      "image": "https://www.fareastfloragarden.com/media/catalog/product/cache/1/small_image/200x200/9df78eab33525d08d6e5fb8d27136e95/p/h/philodendron_scandens_in_hg-0815_pot_15cmxh13cm_-_gold_1.jpg",
       "clicked": false
     }
 ]
