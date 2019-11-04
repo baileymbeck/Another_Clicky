@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/baileymbeck/Another_Clicky/precache-manifest.2b69e50cc2986448765e54ffb4ad69ea.js"
+  "/baileymbeck/Another_Clicky/precache-manifest.c3c44b42650ae754760425a8f4e90641.js"
 );
 
 self.addEventListener('message', (event) => {
